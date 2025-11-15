@@ -4,26 +4,21 @@
 frappe.ui.form.on("Machine Maintenance", {
     onload: function (frm) {
         if (frm.is_new()) {
-            // frm.set_value('maintenance_date', frappe.datetime.get_today());
             frm.doc.maintenance_date = frappe.datetime.get_today();
             frm.refresh_field('maintenance_date');
         }
     },
     refresh(frm) {
-        // frm.trigger("show_notes")
-
-        if (frm.doc.status === 'Scheduled') {
-            // frm.toggle_display('notes', false);
-            frm.set_df_property('notes', 'hidden', true);
-        } else {
-            // frm.toggle_display('notes', true);
+        // Hide notes section based on status
+        if (!['Draft', 'Scheduled'].includes(cur_frm.doc.status)) {
+            frm.trigger("show_notes")
             frm.set_df_property('notes', 'hidden', false);
+        } else {
+            frm.set_df_property('notes', 'hidden', true);
 
         }
     },
     show_notes(frm) {
-        // if (this.frm.doc.docstatus == 1) return;
-
         const crm_notes = new erpnext.utils.CRMNotes({
             frm: frm,
             notes_wrapper: $(frm.fields_dict.notes_html.wrapper),
