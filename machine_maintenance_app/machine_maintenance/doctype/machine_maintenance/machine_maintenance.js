@@ -20,7 +20,7 @@ frappe.ui.form.on("Machine Maintenance", {
         }
 
         // auto-update status to Overdue if maintenance_date < today
-        if (frm.doc.workflow_state !== 'Completed' && frm.doc.maintenance_date) {
+        if (frm.doc.docstatus == 0 && frm.doc.maintenance_date) {
             var today = frappe.datetime.get_today();
             if (frm.doc.maintenance_date < today) {
                 if (frm.doc.status !== 'Overdue') {
@@ -30,7 +30,7 @@ frappe.ui.form.on("Machine Maintenance", {
             }
         }
 
-        if (frm.doc.workflow_state == 'Scheduled' && frm.doc.status != 'Completed' && !frm.is_new()) {
+        if (frm.doc.status == 'Scheduled' && !frm.is_new() && frappe.user.has_role('Technician')) {
             frm.add_custom_button(__('Mark Completed'), function () {
                 if (!frm.doc.completion_date) {
                     frappe.msgprint(__('Please set the Completion Date before marking as Completed.'));
