@@ -143,7 +143,24 @@ doc_events = {
 "on_update": "machine_maintenance_app.machine_maintenance.doctype.machine_maintenance.machine_maintenance.on_workflow_action"
 }
 }
-
+fixtures =[
+    {
+        "dt": "Workflow", 
+    },
+    {
+        "dt": "Workflow State",
+    },
+    {
+        "dt": "Workflow Action",
+    },
+    {
+        "dt": "Email Account",
+    },
+    {
+        "dt":"Role",
+        'filters': [["name", "in", ["Technician"]]]
+    }
+]
 # Scheduled Tasks
 # ---------------
 
