@@ -18,7 +18,8 @@
   "parts_used",
   "notes_tab",
   "notes_html",
-  "notes"
+  "notes",
+  "amended_from"
  ],
  "fields": [
   {
@@ -103,12 +104,23 @@
    "fieldtype": "Table",
    "label": "Parts Used",
    "options": "Parts Used"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Machine Maintenance",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
+ "is_submittable": 1,
  "links": [],
- "modified": "2025-11-15 10:29:18.487767",
+ "modified": "2025-11-15 11:02:34.551401",
  "modified_by": "Administrator",
  "module": "Machine Maintenance",
  "name": "Machine Maintenance",
@@ -123,6 +135,28 @@
    "read": 1,
    "report": 1,
    "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Technician",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Maintenance Manager",
    "share": 1,
    "write": 1
   }
