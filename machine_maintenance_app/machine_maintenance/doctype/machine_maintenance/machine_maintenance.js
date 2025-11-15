@@ -11,7 +11,7 @@ frappe.ui.form.on("Machine Maintenance", {
     refresh(frm) {
 
         // Hide notes section based on status
-        if (!['Draft', 'Scheduled'].includes(cur_frm.doc.status)) {
+        if (!['Scheduled'].includes(cur_frm.doc.status)) {
             frm.trigger("show_notes")
             frm.set_df_property('notes', 'hidden', false);
         } else {
@@ -28,6 +28,45 @@ frappe.ui.form.on("Machine Maintenance", {
                     frm.save();
                 }
             }
+        }
+
+        if (frm.doc.status == 'Scheduled') {
+            frm.add_custom_button(__('Mark Completed'), function () {
+                if (!frm.doc.completion_date) {
+                    frappe.msgprint(__('Please set the Completion Date before marking as Completed.'));
+                    frm.scroll_to_field("completion_date");
+
+                }
+
+                if (frm.doc.completion_date < frm.doc.maintenance_date) {
+                    frappe.msgprint(__('Completion Date must be greater than or equal to Scheduled Date.'));
+                    frm.scroll_to_field("completion_date");
+                    return;
+                }
+
+                frappe.call({
+                    doc: frm.doc,
+                    method: "mark_as_completed",
+                    freeze: true
+
+                }).then((r) => {
+                    frm.refresh();
+
+                });
+
+
+                // frappe.call({
+                //     method: 'frappe.client.set_value',
+                //     args: {
+                //         doctype: frm.doc.doctype,
+                //         name: frm.doc.name,
+                //         fieldname: { 'status': 'Completed', 'completion_date': frappe.datetime.get_today() }
+                //     },
+                //     callback: function () {
+                //         frm.reload_doc();
+                //     }
+                // });
+            });
         }
     },
     show_notes(frm) {

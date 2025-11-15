@@ -29,3 +29,8 @@ class MachineMaintenance(Document):
 				break
 		self.save()
 
+
+	@frappe.whitelist()
+	def mark_as_completed(self):
+		self.status = "Completed"
+		self.save()
