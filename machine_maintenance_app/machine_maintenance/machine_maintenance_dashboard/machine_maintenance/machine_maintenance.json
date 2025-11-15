@@ -1,0 +1,35 @@
+{
+ "cards": [
+  {
+   "card": "Completed Maintenance Tasks"
+  },
+  {
+   "card": "Overdue Maintenance Tasks"
+  },
+  {
+   "card": "Total Maintenance"
+  }
+ ],
+ "charts": [
+  {
+   "chart": "Status distribution",
+   "width": "Half"
+  },
+  {
+   "chart": "Maintenance cost trend",
+   "width": "Half"
+  }
+ ],
+ "creation": "2025-11-15 12:37:31.384742",
+ "dashboard_name": "Machine Maintenance",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "modified": "2025-11-15 15:00:36.358828",
+ "modified_by": "Administrator",
+ "module": "Machine Maintenance",
+ "name": "Machine Maintenance",
+ "owner": "Administrator"
+}

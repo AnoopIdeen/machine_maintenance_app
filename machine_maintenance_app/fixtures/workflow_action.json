@@ -1,0 +1,1892 @@
+[
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "Technician",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 10:18:35.020723",
+  "name": "fau0jk8505",
+  "permitted_roles": [
+   {
+    "parent": "fau0jk8505",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "fatkj6q8l1",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 10:20:05.744400",
+  "name": "g79i6kjbui",
+  "permitted_roles": [
+   {
+    "parent": "g79i6kjbui",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "fatkj6q8l1",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "Scheduled"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "Maintenance Manager",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 10:20:09.566813",
+  "name": "g8fah2m45k",
+  "permitted_roles": [
+   {
+    "parent": "g8fah2m45k",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Maintenance Manager"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "fatkj6q8l1",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Completed"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 10:30:55.887349",
+  "name": "miel2djoj7",
+  "permitted_roles": [
+   {
+    "parent": "miel2djoj7",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "miegpc2rhk",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "technician@gmail.com",
+  "completed_by_role": "Technician",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 10:33:20.041935",
+  "name": "nvgq80g343",
+  "permitted_roles": [
+   {
+    "parent": "nvgq80g343",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "nvgmabv0ei",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 10:34:33.728416",
+  "name": "omh4jj0q2t",
+  "permitted_roles": [
+   {
+    "parent": "omh4jj0q2t",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "nvgmabv0ei",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "Scheduled"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 10:39:23.113525",
+  "name": "rgv7u8kvm8",
+  "permitted_roles": [
+   {
+    "parent": "rgv7u8kvm8",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "rgubqenasp",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "technician@gmail.com",
+  "completed_by_role": "Technician",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 10:39:48.926751",
+  "name": "rp1l37u1ia",
+  "permitted_roles": [
+   {
+    "parent": "rp1l37u1ia",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "rp14ojvpor",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "technician@gmail.com",
+  "completed_by_role": "Technician",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 10:39:56.053224",
+  "name": "rr8ksi8p22",
+  "permitted_roles": [
+   {
+    "parent": "rr8ksi8p22",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "rp14ojvpor",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Scheduled"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 10:39:59.161163",
+  "name": "rs706tqvdd",
+  "permitted_roles": [
+   {
+    "parent": "rs706tqvdd",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Maintenance Manager"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "rp14ojvpor",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "Completed"
+ },
+ {
+  "completed_by": "technician@gmail.com",
+  "completed_by_role": "Technician",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 10:46:50.047057",
+  "name": "vskbdidglq",
+  "permitted_roles": [
+   {
+    "parent": "vskbdidglq",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "vskndlp9mr",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "technician@gmail.com",
+  "completed_by_role": "Technician",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 10:47:07.126695",
+  "name": "01v677h23h",
+  "permitted_roles": [
+   {
+    "parent": "01v677h23h",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "vskndlp9mr",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Scheduled"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "Maintenance Manager",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 10:47:11.469009",
+  "name": "03anf19607",
+  "permitted_roles": [
+   {
+    "parent": "03anf19607",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Maintenance Manager"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "vskndlp9mr",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Completed"
+ },
+ {
+  "completed_by": "technician@gmail.com",
+  "completed_by_role": "Technician",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 11:04:41.337363",
+  "name": "abd0krm02k",
+  "permitted_roles": [
+   {
+    "parent": "abd0krm02k",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "abcgt4vhnv",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "technician@gmail.com",
+  "completed_by_role": "Technician",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 11:04:53.550511",
+  "name": "af7cl2borc",
+  "permitted_roles": [
+   {
+    "parent": "af7cl2borc",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "abcgt4vhnv",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Scheduled"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "Maintenance Manager",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 11:04:55.911975",
+  "name": "afvl7reivc",
+  "permitted_roles": [
+   {
+    "parent": "afvl7reivc",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Maintenance Manager"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "abcgt4vhnv",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Completed"
+ },
+ {
+  "completed_by": "technician@gmail.com",
+  "completed_by_role": "Technician",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 11:21:26.260189",
+  "name": "k5erhgisii",
+  "permitted_roles": [
+   {
+    "parent": "k5erhgisii",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0001",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 11:22:11.227549",
+  "name": "kjg0f13rgo",
+  "permitted_roles": [
+   {
+    "parent": "kjg0f13rgo",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0001",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "Scheduled"
+ },
+ {
+  "completed_by": "technician@gmail.com",
+  "completed_by_role": "Technician",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 11:22:40.928246",
+  "name": "kspmdjl6ch",
+  "permitted_roles": [
+   {
+    "parent": "kspmdjl6ch",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0002",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "technician@gmail.com",
+  "completed_by_role": "Technician",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 11:26:17.093084",
+  "name": "n0bpr9u711",
+  "permitted_roles": [
+   {
+    "parent": "n0bpr9u711",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0003",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 11:27:20.389297",
+  "name": "nk3mgauq1s",
+  "permitted_roles": [
+   {
+    "parent": "nk3mgauq1s",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0004",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "technician@gmail.com",
+  "completed_by_role": "Technician",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 11:28:03.300455",
+  "name": "o1h9kclq7r",
+  "permitted_roles": [
+   {
+    "parent": "o1h9kclq7r",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0005",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "technician@gmail.com",
+  "completed_by_role": "Technician",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 11:28:27.491085",
+  "name": "o92ek5a015",
+  "permitted_roles": [
+   {
+    "parent": "o92ek5a015",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0005",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Scheduled"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 11:28:33.007803",
+  "name": "oaqnl3cjr4",
+  "permitted_roles": [
+   {
+    "parent": "oaqnl3cjr4",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Maintenance Manager"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0005",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "Completed"
+ },
+ {
+  "completed_by": "technician@gmail.com",
+  "completed_by_role": "Technician",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 11:28:50.869796",
+  "name": "ogca3k9pqg",
+  "permitted_roles": [
+   {
+    "parent": "ogca3k9pqg",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0006",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "technician@gmail.com",
+  "completed_by_role": "Technician",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 11:29:47.361983",
+  "name": "p219kkpvqg",
+  "permitted_roles": [
+   {
+    "parent": "p219kkpvqg",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0007",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "technician@gmail.com",
+  "completed_by_role": "Technician",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 11:30:04.595599",
+  "name": "p7e8994uti",
+  "permitted_roles": [
+   {
+    "parent": "p7e8994uti",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0007",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Scheduled"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 11:30:06.395084",
+  "name": "p80jj8f8b3",
+  "permitted_roles": [
+   {
+    "parent": "p80jj8f8b3",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Maintenance Manager"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0007",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "Completed"
+ },
+ {
+  "completed_by": "technician@gmail.com",
+  "completed_by_role": "Technician",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 11:30:46.416027",
+  "name": "pkgv4v00qt",
+  "permitted_roles": [
+   {
+    "parent": "pkgv4v00qt",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0008",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 11:31:05.532518",
+  "name": "pqf7b96gnb",
+  "permitted_roles": [
+   {
+    "parent": "pqf7b96gnb",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0008",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "Scheduled"
+ },
+ {
+  "completed_by": "technician@gmail.com",
+  "completed_by_role": "Technician",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 11:32:00.657332",
+  "name": "qbm8nogot5",
+  "permitted_roles": [
+   {
+    "parent": "qbm8nogot5",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0009",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "Technician",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 11:32:23.017616",
+  "name": "qim0i3btnt",
+  "permitted_roles": [
+   {
+    "parent": "qim0i3btnt",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0009",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Scheduled"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "Maintenance Manager",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 11:34:17.087308",
+  "name": "rmaqhdr7tm",
+  "permitted_roles": [
+   {
+    "parent": "rmaqhdr7tm",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Maintenance Manager"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0009",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Completed"
+ },
+ {
+  "completed_by": "technician@gmail.com",
+  "completed_by_role": "Technician",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 11:38:25.572392",
+  "name": "u3vdn8gss2",
+  "permitted_roles": [
+   {
+    "parent": "u3vdn8gss2",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0010",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "technician@gmail.com",
+  "completed_by_role": "Technician",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 11:38:35.816967",
+  "name": "u760b1uij7",
+  "permitted_roles": [
+   {
+    "parent": "u760b1uij7",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0010",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Scheduled"
+ },
+ {
+  "completed_by": "m@gmail.com",
+  "completed_by_role": "Maintenance Manager",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 11:38:44.718049",
+  "name": "u9vqvfimje",
+  "permitted_roles": [
+   {
+    "parent": "u9vqvfimje",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Maintenance Manager"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0010",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Completed"
+ },
+ {
+  "completed_by": "technician@gmail.com",
+  "completed_by_role": "Technician",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 13:25:42.809364",
+  "name": "svkjs7k991",
+  "permitted_roles": [
+   {
+    "parent": "svkjs7k991",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0011",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "technician@gmail.com",
+  "completed_by_role": "Technician",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 13:40:00.157035",
+  "name": "5bh3u0lat8",
+  "permitted_roles": [
+   {
+    "parent": "5bh3u0lat8",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0011",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Scheduled"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 13:40:03.348375",
+  "name": "5chco48fh0",
+  "permitted_roles": [
+   {
+    "parent": "5chco48fh0",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Maintenance Manager"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0011",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "Completed"
+ },
+ {
+  "completed_by": "technician@gmail.com",
+  "completed_by_role": "Technician",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 13:41:34.588453",
+  "name": "6911dnfh2q",
+  "permitted_roles": [
+   {
+    "parent": "6911dnfh2q",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0012",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "technician@gmail.com",
+  "completed_by_role": "Technician",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 13:44:19.194828",
+  "name": "7sgk716a7j",
+  "permitted_roles": [
+   {
+    "parent": "7sgk716a7j",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0013",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "technician@gmail.com",
+  "completed_by_role": "Technician",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 13:44:36.590991",
+  "name": "81tsvqdqi0",
+  "permitted_roles": [
+   {
+    "parent": "81tsvqdqi0",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0014",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "technician@gmail.com",
+  "completed_by_role": "Technician",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 13:45:02.799892",
+  "name": "8a4tjumjcl",
+  "permitted_roles": [
+   {
+    "parent": "8a4tjumjcl",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0013",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Scheduled"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 13:45:05.621531",
+  "name": "8b01akff4m",
+  "permitted_roles": [
+   {
+    "parent": "8b01akff4m",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Maintenance Manager"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0013",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "Completed"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 13:46:32.621214",
+  "name": "9662uuuhsk",
+  "permitted_roles": [
+   {
+    "parent": "9662uuuhsk",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0014",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "Scheduled"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 13:48:14.718277",
+  "name": "a63d9sj2eb",
+  "permitted_roles": [
+   {
+    "parent": "a63d9sj2eb",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0015",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "technician@gmail.com",
+  "completed_by_role": "Technician",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 13:48:36.648272",
+  "name": "acuq4enl8s",
+  "permitted_roles": [
+   {
+    "parent": "acuq4enl8s",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0016",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "technician@gmail.com",
+  "completed_by_role": "Technician",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 13:49:05.122561",
+  "name": "alrpj94a0k",
+  "permitted_roles": [
+   {
+    "parent": "alrpj94a0k",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0016",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Scheduled"
+ },
+ {
+  "completed_by": "m@gmail.com",
+  "completed_by_role": "Maintenance Manager",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 13:49:06.876032",
+  "name": "amcr6av8jh",
+  "permitted_roles": [
+   {
+    "parent": "amcr6av8jh",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Maintenance Manager"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0016",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Completed"
+ },
+ {
+  "completed_by": "technician@gmail.com",
+  "completed_by_role": "Technician",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 13:51:14.169825",
+  "name": "bu5n1f704t",
+  "permitted_roles": [
+   {
+    "parent": "bu5n1f704t",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0017",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "technician@gmail.com",
+  "completed_by_role": "Technician",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 13:51:32.527743",
+  "name": "c3ttoatev4",
+  "permitted_roles": [
+   {
+    "parent": "c3ttoatev4",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0017",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Scheduled"
+ },
+ {
+  "completed_by": "m@gmail.com",
+  "completed_by_role": "Maintenance Manager",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 13:51:37.346607",
+  "name": "c5dm3mube2",
+  "permitted_roles": [
+   {
+    "parent": "c5dm3mube2",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Maintenance Manager"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0017",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Completed"
+ },
+ {
+  "completed_by": "technician@gmail.com",
+  "completed_by_role": "Technician",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 13:53:46.509594",
+  "name": "ddp050gjm7",
+  "permitted_roles": [
+   {
+    "parent": "ddp050gjm7",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0018",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "technician@gmail.com",
+  "completed_by_role": "Technician",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 13:53:59.528373",
+  "name": "dhrbhhc76s",
+  "permitted_roles": [
+   {
+    "parent": "dhrbhhc76s",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0018",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Scheduled"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 13:54:01.842159",
+  "name": "diipghskn4",
+  "permitted_roles": [
+   {
+    "parent": "diipghskn4",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Maintenance Manager"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0018",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "Completed"
+ },
+ {
+  "completed_by": "technician@gmail.com",
+  "completed_by_role": "Technician",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 13:54:46.335996",
+  "name": "e0fiu7641f",
+  "permitted_roles": [
+   {
+    "parent": "e0fiu7641f",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0019",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "technician@gmail.com",
+  "completed_by_role": "Technician",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 13:54:53.020413",
+  "name": "e2igcluh3n",
+  "permitted_roles": [
+   {
+    "parent": "e2igcluh3n",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0019",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Scheduled"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 13:54:54.594736",
+  "name": "e32ch61lci",
+  "permitted_roles": [
+   {
+    "parent": "e32ch61lci",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Maintenance Manager"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0019",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "Completed"
+ },
+ {
+  "completed_by": "technician@gmail.com",
+  "completed_by_role": "Technician",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 13:58:30.366185",
+  "name": "g6f4uel7rh",
+  "permitted_roles": [
+   {
+    "parent": "g6f4uel7rh",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0020",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "technician@gmail.com",
+  "completed_by_role": "Technician",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 13:58:42.661015",
+  "name": "gaat5fi51d",
+  "permitted_roles": [
+   {
+    "parent": "gaat5fi51d",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0020",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Scheduled"
+ },
+ {
+  "completed_by": "m@gmail.com",
+  "completed_by_role": "Maintenance Manager",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 13:58:44.586425",
+  "name": "gatbdnag1m",
+  "permitted_roles": [
+   {
+    "parent": "gatbdnag1m",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Maintenance Manager"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0020",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Completed"
+ },
+ {
+  "completed_by": "technician@gmail.com",
+  "completed_by_role": "Technician",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 13:59:05.165231",
+  "name": "ghbj1usvqv",
+  "permitted_roles": [
+   {
+    "parent": "ghbj1usvqv",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0021",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "technician@gmail.com",
+  "completed_by_role": "Technician",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 13:59:11.857965",
+  "name": "gje53mf1st",
+  "permitted_roles": [
+   {
+    "parent": "gje53mf1st",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0021",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Scheduled"
+ },
+ {
+  "completed_by": "m@gmail.com",
+  "completed_by_role": "Maintenance Manager",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 13:59:13.721287",
+  "name": "gk1cqpq23p",
+  "permitted_roles": [
+   {
+    "parent": "gk1cqpq23p",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Maintenance Manager"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0021",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Completed"
+ },
+ {
+  "completed_by": "technician@gmail.com",
+  "completed_by_role": "Technician",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 16:16:34.876536",
+  "name": "13c04iifkg",
+  "permitted_roles": [
+   {
+    "parent": "13c04iifkg",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0022",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "technician@gmail.com",
+  "completed_by_role": "Technician",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 16:23:39.539282",
+  "name": "583bc01p29",
+  "permitted_roles": [
+   {
+    "parent": "583bc01p29",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0023",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "technician@gmail.com",
+  "completed_by_role": "Technician",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 16:31:37.794524",
+  "name": "9tip0keldl",
+  "permitted_roles": [
+   {
+    "parent": "9tip0keldl",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0024",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "technician@gmail.com",
+  "completed_by_role": "Technician",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 16:34:53.957540",
+  "name": "bqr01ssabj",
+  "permitted_roles": [
+   {
+    "parent": "bqr01ssabj",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0025",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "technician@gmail.com",
+  "completed_by_role": "Technician",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 16:44:31.914704",
+  "name": "hff2o5ab2k",
+  "permitted_roles": [
+   {
+    "parent": "hff2o5ab2k",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0026",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "technician@gmail.com",
+  "completed_by_role": "Technician",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 16:46:43.686438",
+  "name": "iokg2fcetp",
+  "permitted_roles": [
+   {
+    "parent": "iokg2fcetp",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0027",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "technician@gmail.com",
+  "completed_by_role": "Technician",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 16:54:08.918200",
+  "name": "n3p8cnjnsd",
+  "permitted_roles": [
+   {
+    "parent": "n3p8cnjnsd",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0028",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "technician@gmail.com",
+  "completed_by_role": "Technician",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 16:55:06.261753",
+  "name": "nlm2mpr2ke",
+  "permitted_roles": [
+   {
+    "parent": "nlm2mpr2ke",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0029",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "technician@gmail.com",
+  "completed_by_role": "Technician",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 16:58:11.452101",
+  "name": "pfic0md287",
+  "permitted_roles": [
+   {
+    "parent": "pfic0md287",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0030",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 16:59:31.722559",
+  "name": "q8lkk6hhtk",
+  "permitted_roles": [
+   {
+    "parent": "q8lkk6hhtk",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0031",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 17:00:24.094236",
+  "name": "qp1r45uhrj",
+  "permitted_roles": [
+   {
+    "parent": "qp1r45uhrj",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0032",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "technician@gmail.com",
+  "completed_by_role": "Technician",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 17:03:58.267120",
+  "name": "sru8vp49et",
+  "permitted_roles": [
+   {
+    "parent": "sru8vp49et",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0033",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "technician@gmail.com",
+  "completed_by_role": "Technician",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 17:04:48.066097",
+  "name": "tbggt9hdng",
+  "permitted_roles": [
+   {
+    "parent": "tbggt9hdng",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0034",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "technician@gmail.com",
+  "completed_by_role": "Technician",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 17:08:15.321659",
+  "name": "vc92ioako0",
+  "permitted_roles": [
+   {
+    "parent": "vc92ioako0",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0035",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "technician@gmail.com",
+  "completed_by_role": "Technician",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 17:11:42.164942",
+  "name": "1ctfkju3as",
+  "permitted_roles": [
+   {
+    "parent": "1ctfkju3as",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0036",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "technician@gmail.com",
+  "completed_by_role": "Technician",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 17:13:21.070873",
+  "name": "2bqggoj09f",
+  "permitted_roles": [
+   {
+    "parent": "2bqggoj09f",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0037",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "technician@gmail.com",
+  "completed_by_role": "Technician",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 17:13:51.046172",
+  "name": "2l68p86gb7",
+  "permitted_roles": [
+   {
+    "parent": "2l68p86gb7",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0038",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "technician@gmail.com",
+  "completed_by_role": "Technician",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 17:21:32.826467",
+  "name": "75g555is10",
+  "permitted_roles": [
+   {
+    "parent": "75g555is10",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0039",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 17:29:25.672545",
+  "name": "bp8q2p1ck6",
+  "permitted_roles": [
+   {
+    "parent": "bp8q2p1ck6",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0040",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "technician@gmail.com",
+  "completed_by_role": "Technician",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 17:31:12.540038",
+  "name": "cql2sha6iv",
+  "permitted_roles": [
+   {
+    "parent": "cql2sha6iv",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0041",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 17:32:47.227715",
+  "name": "do8p1j4j3c",
+  "permitted_roles": [
+   {
+    "parent": "do8p1j4j3c",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0041",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "Scheduled"
+ },
+ {
+  "completed_by": "technician@gmail.com",
+  "completed_by_role": "Technician",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 17:32:59.975641",
+  "name": "ds730gim5c",
+  "permitted_roles": [
+   {
+    "parent": "ds730gim5c",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0042",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "technician@gmail.com",
+  "completed_by_role": "Technician",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 17:33:27.568084",
+  "name": "e4rcllhdru",
+  "permitted_roles": [
+   {
+    "parent": "e4rcllhdru",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0042",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Scheduled"
+ },
+ {
+  "completed_by": "m@gmail.com",
+  "completed_by_role": "Maintenance Manager",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 17:33:30.474789",
+  "name": "e5obrkrels",
+  "permitted_roles": [
+   {
+    "parent": "e5obrkrels",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Maintenance Manager"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0042",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Completed"
+ },
+ {
+  "completed_by": "technician@gmail.com",
+  "completed_by_role": "Technician",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 17:40:35.141491",
+  "name": "iafqjrd28i",
+  "permitted_roles": [
+   {
+    "parent": "iafqjrd28i",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0043",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-11-15 17:42:29.927512",
+  "name": "jeb318tj48",
+  "permitted_roles": [
+   {
+    "parent": "jeb318tj48",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Technician"
+   }
+  ],
+  "reference_doctype": "Machine Maintenance",
+  "reference_name": "MM-0043",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "Scheduled"
+ }
+]

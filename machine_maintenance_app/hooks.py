@@ -137,14 +137,30 @@ app_license = "mit"
 # ---------------
 # Hook on document methods and events
 
-# doc_events = {
-# 	"*": {
-# 		"on_update": "method",
-# 		"on_cancel": "method",
-# 		"on_trash": "method"
-# 	}
-# }
-
+doc_events = {
+"Machine Maintenance": {
+"on_submit": "machine_maintenance_app.machine_maintenance.doctype.machine_maintenance.machine_maintenance.create_journal_entry",
+"on_update": "machine_maintenance_app.machine_maintenance.doctype.machine_maintenance.machine_maintenance.on_workflow_action"
+}
+}
+fixtures =[
+    {
+        "dt": "Workflow", 
+    },
+    {
+        "dt": "Workflow State",
+    },
+    {
+        "dt": "Workflow Action",
+    },
+    {
+        "dt": "Email Account",
+    },
+    {
+        "dt":"Role",
+        'filters': [["name", "in", ["Technician"]]]
+    }
+]
 # Scheduled Tasks
 # ---------------
 
