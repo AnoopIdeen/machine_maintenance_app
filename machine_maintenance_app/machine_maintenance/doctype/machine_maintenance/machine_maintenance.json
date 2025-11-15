@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "format:MM-{####}",
  "creation": "2025-11-14 17:32:41.660001",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -70,11 +71,10 @@
    "options": "Employee"
   },
   {
-   "default": "Scheduled",
    "fieldname": "status",
    "fieldtype": "Select",
    "label": "Status",
-   "options": "Scheduled\nCompleted\nOverdue"
+   "options": "\nScheduled\nCompleted\nOverdue"
   },
   {
    "fieldname": "completion_date",
@@ -120,10 +120,11 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-11-15 11:02:34.551401",
+ "modified": "2025-11-15 11:42:25.690217",
  "modified_by": "Administrator",
  "module": "Machine Maintenance",
  "name": "Machine Maintenance",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {
@@ -158,6 +159,7 @@
    "report": 1,
    "role": "Maintenance Manager",
    "share": 1,
+   "submit": 1,
    "write": 1
   }
  ],

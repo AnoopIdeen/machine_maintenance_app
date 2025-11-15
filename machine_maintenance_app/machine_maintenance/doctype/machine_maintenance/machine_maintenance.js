@@ -11,7 +11,7 @@ frappe.ui.form.on("Machine Maintenance", {
     refresh(frm) {
 
         // Hide notes section based on status
-        if (!['Scheduled'].includes(cur_frm.doc.status)) {
+        if (!['Scheduled'].includes(frm.doc.workflow_state)) {
             frm.trigger("show_notes")
             frm.set_df_property('notes', 'hidden', false);
         } else {
@@ -20,7 +20,7 @@ frappe.ui.form.on("Machine Maintenance", {
         }
 
         // auto-update status to Overdue if maintenance_date < today
-        if (frm.doc.status !== 'Completed' && frm.doc.maintenance_date) {
+        if (frm.doc.workflow_state !== 'Completed' && frm.doc.maintenance_date) {
             var today = frappe.datetime.get_today();
             if (frm.doc.maintenance_date < today) {
                 if (frm.doc.status !== 'Overdue') {
@@ -30,12 +30,12 @@ frappe.ui.form.on("Machine Maintenance", {
             }
         }
 
-        if (frm.doc.status == 'Scheduled' && !frm.is_new()) {
+        if (frm.doc.workflow_state == 'Scheduled' && frm.doc.status != 'Completed' && !frm.is_new()) {
             frm.add_custom_button(__('Mark Completed'), function () {
                 if (!frm.doc.completion_date) {
                     frappe.msgprint(__('Please set the Completion Date before marking as Completed.'));
                     frm.scroll_to_field("completion_date");
-
+                    return
                 }
 
                 if (frm.doc.completion_date < frm.doc.maintenance_date) {
