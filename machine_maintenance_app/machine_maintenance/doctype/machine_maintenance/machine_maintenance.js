@@ -30,7 +30,7 @@ frappe.ui.form.on("Machine Maintenance", {
             }
         }
 
-        if (frm.doc.status == 'Scheduled') {
+        if (frm.doc.status == 'Scheduled' && !frm.is_new()) {
             frm.add_custom_button(__('Mark Completed'), function () {
                 if (!frm.doc.completion_date) {
                     frappe.msgprint(__('Please set the Completion Date before marking as Completed.'));
