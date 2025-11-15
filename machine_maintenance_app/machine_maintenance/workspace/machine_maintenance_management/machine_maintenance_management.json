@@ -1,0 +1,38 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"bZHanWUPr9\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Machine Maintenance Management</span>\",\"col\":12}},{\"id\":\"Ese1YTjDDH\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Machine Maintenance\",\"col\":3}}]",
+ "creation": "2025-11-15 09:02:35.590391",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "getting-started",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Machine Maintenance Management",
+ "links": [],
+ "modified": "2025-11-15 09:03:19.233263",
+ "modified_by": "Administrator",
+ "module": "Machine Maintenance",
+ "name": "Machine Maintenance Management",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 28.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Machine Maintenance",
+   "link_to": "Machine Maintenance",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "Machine Maintenance Management"
+}

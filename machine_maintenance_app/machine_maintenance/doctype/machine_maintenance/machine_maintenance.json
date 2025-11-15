@@ -6,6 +6,16 @@
  "engine": "InnoDB",
  "field_order": [
   "machine_name",
+  "maintenance_type",
+  "technician",
+  "status",
+  "column_break_iizb",
+  "maintenance_date",
+  "completion_date",
+  "currency",
+  "cost",
+  "section_break_svhl",
+  "parts_used",
   "notes_tab",
   "notes_html",
   "notes"
@@ -34,12 +44,71 @@
    "fieldtype": "Table",
    "label": "Notes",
    "options": "Maintenance Note"
+  },
+  {
+   "fieldname": "maintenance_type",
+   "fieldtype": "Select",
+   "label": "Maintenance Type",
+   "options": "\nPreventive\nCorrective",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_iizb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "maintenance_date",
+   "fieldtype": "Date",
+   "label": "Maintenance Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "technician",
+   "fieldtype": "Link",
+   "label": "Technician",
+   "options": "Employee"
+  },
+  {
+   "default": "Draft",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Draft\nScheduled\nCompleted\nOverdue"
+  },
+  {
+   "fieldname": "completion_date",
+   "fieldtype": "Date",
+   "label": "Completion Date"
+  },
+  {
+   "default": "INR",
+   "fieldname": "currency",
+   "fieldtype": "Link",
+   "label": "Currency",
+   "options": "Currency"
+  },
+  {
+   "fieldname": "cost",
+   "fieldtype": "Currency",
+   "label": "Cost",
+   "options": "currency",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_svhl",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "parts_used",
+   "fieldtype": "Table",
+   "label": "Parts Used",
+   "options": "Parts Used"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-11-14 17:43:18.270913",
+ "modified": "2025-11-15 09:24:52.268389",
  "modified_by": "Administrator",
  "module": "Machine Maintenance",
  "name": "Machine Maintenance",
