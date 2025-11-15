@@ -9,7 +9,11 @@ frappe.ui.form.on("Machine Maintenance", {
         }
     },
     refresh(frm) {
+        if (frm.doc.workflow_state == 'Completed') {
+            frm.set_df_property('debit_account', 'read_only', false);
+            frm.set_df_property('credit_account', 'read_only', false);
 
+        }
         // Hide notes section based on status
         if (!['Scheduled'].includes(frm.doc.workflow_state)) {
             frm.trigger("show_notes")

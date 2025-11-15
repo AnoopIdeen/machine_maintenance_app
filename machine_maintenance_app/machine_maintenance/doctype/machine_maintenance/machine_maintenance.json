@@ -20,7 +20,11 @@
   "notes_tab",
   "notes_html",
   "notes",
-  "amended_from"
+  "amended_from",
+  "account_tab",
+  "debit_account",
+  "column_break_naff",
+  "credit_account"
  ],
  "fields": [
   {
@@ -119,13 +123,36 @@
    "print_hide": 1,
    "read_only": 1,
    "search_index": 1
+  },
+  {
+   "fieldname": "account_tab",
+   "fieldtype": "Tab Break",
+   "label": "Account "
+  },
+  {
+   "fieldname": "debit_account",
+   "fieldtype": "Link",
+   "label": "Debit Account",
+   "options": "Account",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_naff",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "credit_account",
+   "fieldtype": "Link",
+   "label": "Credit Account",
+   "options": "Account",
+   "read_only": 1
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-11-15 15:09:07.504079",
+ "modified": "2025-11-15 15:32:04.400905",
  "modified_by": "Administrator",
  "module": "Machine Maintenance",
  "name": "Machine Maintenance",

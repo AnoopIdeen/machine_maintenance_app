@@ -39,6 +39,10 @@ class MachineMaintenance(Document):
 def create_journal_entry(doc, method=None):
 	if not doc.technician:
 		frappe.throw("Technician is required to create Journal Entry.")
+	if not doc.debit_account:
+		frappe.throw("Debit Account is required to create Journal Entry.")
+	if not doc.credit_account:
+		frappe.throw("Credit Account is required to create Journal Entry.")
 
 	company = frappe.db.get_value('Company', frappe.defaults.get_defaults().company, 'name')
 	if not company:
@@ -52,24 +56,29 @@ def create_journal_entry(doc, method=None):
 		amount=doc.cost * exchange_rate if exchange_rate else doc.cost
 	accounts= [
 				{
-				'account': 'Maintenance Expense account',
-				'debit_in_company_currency': flt(amount),
+				'account': doc.debit_account,
+				'debit_in_account_currency': flt(amount),
 				'debit': flt(amount)
 				},
 				{
-				'account': 'Cash',
-				'credit_in_company_currency': flt(amount),
+				'account': doc.credit_account,
+				'credit_in_account_currency': flt(amount),
 				'credit': flt(amount)
 				}
 				]
 	try:
-		je = frappe.new_doc("Journal Entry")
-		je.company = company
-		je.posting_date=frappe.utils.now()
-		je.remarks= 'Maintenance for {0}'.format(doc.machine_name)
-		je.accounts = accounts
-		je.save(ignore_permissions=True)
-		# je.submit()
+		je = frappe.get_doc(
+				{
+					"doctype": "Journal Entry",
+					"company": company,
+					"voucher_type": "Journal Entry",
+					"posting_date": frappe.utils.now(),
+					"multi_currency": True,
+					"accounts": accounts
+				}
+			)
+		je.save().submit()
+	
 
 	except Exception as e:
 		frappe.log_error(message=frappe.get_traceback(), title='Machine Maintenance: Journal Entry Failed')
