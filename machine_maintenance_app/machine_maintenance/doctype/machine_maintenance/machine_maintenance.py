@@ -48,6 +48,25 @@ class MachineMaintenance(Document):
 
 
 def create_journal_entry(doc, method=None):
+	"""
+    Creates a Journal Entry for Machine Maintenance expenses.
+
+    Validations:
+    - Technician must be selected.
+    - Debit and Credit Accounts must be provided.
+    - Company and Company Currency must be set in System Settings.
+    - If maintenance currency differs from company currency, exchange rate is applied.
+
+    Process:
+    - Calculates amount based on exchange rate if needed.
+    - Builds debit and credit line items.
+    - Creates and submits the Journal Entry document.
+
+    Error Handling:
+    - Logs full traceback on failure.
+    - Throws a user-friendly error if Journal Entry creation fails.
+    """
+
 	if not doc.technician:
 		frappe.throw("Technician is required to create Journal Entry.")
 	if not doc.debit_account:
@@ -98,6 +117,24 @@ def create_journal_entry(doc, method=None):
 
 @frappe.whitelist()
 def get_total_maintenance_amount():
+	"""
+    Calculates the total maintenance cost for the current month in company currency.
+
+    Logic:
+    - Fetches the Default Company and its default currency.
+    - Determines the first and last day of the current month.
+    - Retrieves all Machine Maintenance records (docstatus = 1) within the date range.
+    - Converts each maintenance cost to company currency using the exchange rate
+      of its maintenance date.
+    - Sums up all converted costs.
+
+    Returns:
+    - A dictionary containing:
+        - value: Total cost in company currency
+        - fieldtype: Currency (for UI rendering)
+        - route_options: Predefined route parameters
+        - route: Destination report route
+    """
 	company = frappe.db.get_value('Company', frappe.defaults.get_defaults().company, 'name')
 	company_currency = frappe.get_cached_value('Company', company, 'default_currency') 
 	total_cost = 0
@@ -125,6 +162,26 @@ def get_total_maintenance_amount():
 
 
 def on_workflow_action(doc,method):
+	"""
+    Sends email notifications based on workflow state and status changes
+    in the Machine Maintenance document.
+
+    Workflow-Based Notifications:
+    - Triggered only when 'workflow_state' changes.
+    - Sends different emails for:
+        • Scheduled  → "Maintenance Scheduled"
+        • Completed  → "Maintenance Completed"
+        • Closed     → "Maintenance Closed"
+
+    Status-Based Notification:
+    - Triggered when 'status' changes to 'Overdue'.
+    - Sends "Maintenance Overdue" notification.
+
+    Additional Notes:
+    - Email recipient is retrieved from App Settings.
+    - Throws a validation error if recipient is not configured.
+    - Uses frappe.sendmail with reference_doctype and reference_name for traceability.
+    """
 	recipient= frappe.get_single('App Settings').email_recipient
 	if not recipient:
 		frappe.throw("Please set Email Recipient in App Settings")

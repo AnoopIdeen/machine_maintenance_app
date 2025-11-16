@@ -35,6 +35,12 @@ frappe.ui.form.on("Machine Maintenance", {
         }
 
         if (frm.doc.status == 'Scheduled' && !frm.is_new() && frappe.user.has_role('Technician')) {
+            // Custom button: "Mark Completed"
+            // Validations:
+            // 1. Completion Date must be set.
+            // 2. Completion Date must be >= Maintenance (Scheduled) Date.
+            // On success, calls the server-side method `mark_as_completed`
+            // and refreshes the form.
             frm.add_custom_button(__('Mark Completed'), function () {
                 if (!frm.doc.completion_date) {
                     frappe.msgprint(__('Please set the Completion Date before marking as Completed.'));
