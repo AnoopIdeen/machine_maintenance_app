@@ -2,6 +2,9 @@
 // For license information, please see license.txt
 
 frappe.ui.form.on("Machine Maintenance", {
+    after_save: function (frm) {
+        frm.refresh()
+    },
     onload: function (frm) {
         if (frm.is_new()) {
             frm.doc.maintenance_date = frappe.datetime.get_today();
@@ -23,8 +26,19 @@ frappe.ui.form.on("Machine Maintenance", {
 
         }
 
+        if (frm.doc.workflow_state == 'Scheduled' || frm.doc.workflow_state == 'Completed') {
+            frm.set_df_property('machine_name', 'read_only', true);
+            frm.set_df_property('maintenance_type', 'read_only', true);
+            frm.set_df_property('maintenance_date', 'read_only', true);
+            if (frm.doc.workflow_state == 'Completed') {
+                frm.set_df_property('completion_date', 'read_only', true);
+                frm.set_df_property('parts_used', 'read_only', true);
+            }
+
+        }
+
         // auto-update status to Overdue if maintenance_date < today
-        if (frm.doc.docstatus == 0 && frm.doc.maintenance_date) {
+        if ((frm.doc.status == 'Scheduled' || frm.doc.workflow_state == 'Draft') && frm.doc.maintenance_date) {
             var today = frappe.datetime.get_today();
             if (frm.doc.maintenance_date < today) {
                 if (frm.doc.status !== 'Overdue') {
