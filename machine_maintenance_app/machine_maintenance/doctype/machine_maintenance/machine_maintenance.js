@@ -58,18 +58,6 @@ frappe.ui.form.on("Machine Maintenance", {
 
                 });
 
-
-                // frappe.call({
-                //     method: 'frappe.client.set_value',
-                //     args: {
-                //         doctype: frm.doc.doctype,
-                //         name: frm.doc.name,
-                //         fieldname: { 'status': 'Completed', 'completion_date': frappe.datetime.get_today() }
-                //     },
-                //     callback: function () {
-                //         frm.reload_doc();
-                //     }
-                // });
             });
         }
     },
@@ -84,6 +72,14 @@ frappe.ui.form.on("Machine Maintenance", {
 frappe.ui.form.on('Parts Used', {
     quantity: function (frm, cdt, cdn) { compute_amount(frm, cdt, cdn); },
     rate: function (frm, cdt, cdn) { compute_amount(frm, cdt, cdn); },
+    parts_used_remove: function (frm) {
+        let cost = 0
+        frm.doc.parts_used.forEach(element => {
+            cost += element.amount
+        });
+        frm.doc.cost = cost
+        frm.refresh()
+    }
 });
 function compute_amount(frm, cdt, cdn) {
     let row = locals[cdt][cdn];

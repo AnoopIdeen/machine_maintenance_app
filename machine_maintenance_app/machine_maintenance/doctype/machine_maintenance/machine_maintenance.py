@@ -8,6 +8,17 @@ from frappe.utils import cstr, now,flt,nowdate,get_first_day, get_last_day, nowd
 from erpnext.setup.utils import get_exchange_rate
 import frappe.utils
 class MachineMaintenance(Document):
+	def before_save(self):
+		self.cost=self.calculate_total()
+
+	def calculate_total(self):
+		total=0
+		for p in self.parts_used:
+			p.amount = flt(p.quantity) * flt(p.rate)
+			total += p.amount
+		return total
+
+
 	@frappe.whitelist()
 	def add_note(self, note):
 		self.append("notes", {"note": note, "added_by": frappe.session.user, "added_on": now()})
