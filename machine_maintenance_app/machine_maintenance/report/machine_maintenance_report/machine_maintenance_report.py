@@ -2,6 +2,8 @@
 # For license information, please see license.txt
 
 import frappe, json
+from frappe.utils.pdf import get_pdf
+from frappe.utils.file_manager import save_file
 
 def execute(filters=None):
 	if not filters:
@@ -79,7 +81,7 @@ def condition_gen(filters):
 	return conditions
 
 @frappe.whitelist()
-def get_pdf(data,consolidated=False):
+def get_pdf_data(data,consolidated=False):
 	data = json.loads(data)
 	consolidated = int(consolidated) if consolidated else 0
 
@@ -90,4 +92,17 @@ def get_pdf(data,consolidated=False):
 			"consolidated": consolidated
 		}
 	)
-	return html
+	# return html
+	data= get_pdf(html)
+	file = save_file(
+			fname=frappe.utils.now()+f".pdf",
+			content=data,
+			dt=None,
+			dn=None,
+			is_private=0
+		)
+	attachment=[{
+				"file_url": file.file_url,
+				"fname": file.file_name
+			}]
+	return attachment

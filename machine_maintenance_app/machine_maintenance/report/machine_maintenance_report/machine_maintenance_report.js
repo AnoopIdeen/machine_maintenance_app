@@ -6,15 +6,19 @@ frappe.query_reports["Machine Maintenance Report"] = {
 		report.page.wrapper.find('[data-label="Print"]').hide();
 		report.page.add_menu_item(__('Print '), function () {
 			frappe.call({
-				method: "machine_maintenance_app.machine_maintenance.report.machine_maintenance_report.machine_maintenance_report.get_pdf",
+				method: "machine_maintenance_app.machine_maintenance.report.machine_maintenance_report.machine_maintenance_report.get_pdf_data",
 				args: {
 					data: JSON.stringify(report.data),
 					consolidated: report.get_values().consolidated
 				},
 				callback: function (r) {
-					let w = window.open();
-					w.document.write(r.message);
-					w.document.close();
+					if (r.message.length > 0) {
+						file_url = r.message[0].file_url.replace(/#/g, "%23");
+
+						window.open(file_url);
+					} else {
+						frappe.msgprint("No Print format Found")
+					}
 				}
 			});
 		});
